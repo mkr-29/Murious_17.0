@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  position: fixed;
+  background: transparent;
+  z-index: 1000;
+  width: 100%;
+  background-color: black;
+}
+.header-wrapper {
+  width: 80vw;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.header.active {
+  background: rgb(0, 0, 0, 0.6);
+  backdrop-filter: blur(12px);
+}
+.header-logojyc {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  height: 100%;
+}
+.nav-items ul {
+  position: relative;
+  display: flex;
+  height: 10vh;
+  gap: 3rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav-items ul {
+  list-style: none;
+}
+.nav-items ul a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 34px;
+  text-decoration: none;
+    color: #fff;
+}
+.nav-items ul li a:hover::after {
+  width: 100%;
+}
+.nav-items ul li a:hover {
+  color: #fff;
+  /* font-weight: 500; */
+}
+.nav-items ul li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: rgb(255, 255, 255);
+  transition: 0.3s;
+}
+.header-nav-lines,
+.header-nav-line {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .nav-items ul {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: flex;
+    height: 7vh;
+    color: white;
+    align-items: center;
+    align-content: center;
+    justify-content: end;
+    z-index: 1000;
+  }
+
+  .header-logojyc img {
+    width: 78px;
+    height: 37px;
+    z-index: 100;
+  }
+
+  .header-wrapper .nav-items ul {
+    flex-direction: column;
+    position: fixed;
+    width: 100vw;
+    height: 0vh;
+    background: black;
+    top: 0;
+    left: 0;
+    justify-content: start;
+    overflow: hidden;
+  }
+
+  .header-wrapper.active .nav-items ul {
+    flex-direction: column;
+    padding-top: 8vh;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    transition: all 400ms ease;
+  }
+  .header-wrapper.active .header-nav-lines {
+    display: inline;
+    width: 50%;
+    height: 0px;
+    background-color: #919191;
+    background: #919191;
+    border: 0.2px solid #919191;
+    margin-left: 25%;
+    margin-right: 25%;
+    transition: all 400ms ease;
+  }
+
+  .header-wrapper.active .header-nav-line {
+    display: inline;
+    width: 100%;
+    height: 0px;
+    background-color: #919191;
+    background: #919191;
+    border: 0.5px solid #919191;
+    padding-left: 0;
+    padding-bottom: 0;
+    transition: all 400ms ease;
+  }
+  .header-wrapper.active .menu {
+    position: relative;
+    transition: all 400ms ease;
+  }
+}
+@media screen and (max-width: 400px){
+    .header-logojyc img{
+        width: 7rem;
+        /* height: 50%; */
+    }
+}
