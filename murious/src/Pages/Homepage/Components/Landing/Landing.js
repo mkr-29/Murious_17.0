@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Landing.css";
-import Time from "./Time";
 
 export default function Landing() {
   return (
@@ -16,7 +15,6 @@ export default function Landing() {
           </Link>
         </div>
       </div>
-      <Time/>
     </div>
   );
 }
