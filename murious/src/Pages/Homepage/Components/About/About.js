@@ -6,7 +6,7 @@ import MurLogo from "./Assets/MuriousLogo.png"
 export default function About() {
   return (
     <div className='murious_about'>
-        <span className='about_heading'/>
+        <span className='about_heading'>About</span>
         <div className='juit_jyc'>
             <span className='jyc_heading'>JUIT Youth Club</span>
             <span className='jyc_about'>

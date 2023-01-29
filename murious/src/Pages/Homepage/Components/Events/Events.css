@@ -1,0 +1,14 @@
+.murious_events{
+    background: linear-gradient(102.67deg, #129106 33.14%, #5EBF4E 100%);
+    width: 100%;
+    height: 42rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.events_head{
+    font-weight: 600;
+    font-size: 150px;
+    color: white;
+    text-align: center;
+}
