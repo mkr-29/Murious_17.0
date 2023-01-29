@@ -4,6 +4,7 @@ import Events from './Components/Events/Events'
 import Header from './Components/Header/Header'
 import Landing from './Components/Landing/Landing'
 import Time from './Components/Landing/Time'
+import Schedule from './Components/Schedule/Schedule'
 
 export default function Homepage() {
   return (
@@ -13,6 +14,7 @@ export default function Homepage() {
         <Time/>
         <About/>
         <Events/>
+        <Schedule/>
     </div>
   )
 }
