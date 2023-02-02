@@ -5,17 +5,22 @@
 .evcar_slides{
     display: flex;
     flex-direction: column;
+    padding-bottom: important 10%;
 }
 .events_car_head{
     font-weight: 400;
-    font-size: 70px;
+    font-size: 62px;
     color: white;
+}
+#ev-carsl{
+    padding-bottom: 10% !important;
 }
 .events_car_desc{
     font-weight: 300;
-    font-size: 35px;
+    font-size: 32px;
     color:white;
     text-align: justify;
+    width: 80%;
 }
 .slideInner___2mfX9 {
     display: flex;
@@ -24,6 +29,10 @@
     width: 80%;
     margin-left: 10rem;
     gap: 2rem;
+    height: 30rem;
+}
+.slide___-7-Nqo{
+    padding-bottom: 17%;
 }
 .event_regb{
     font-weight: 300;
@@ -36,22 +45,34 @@
 .but_back{
     position: absolute;
     top: 174rem;   
-    left: 2rem;
+    left: 4rem;
     background: none;
     border: none;
 }
 .but_next{
     position: absolute;
     top: 174rem;
-    right: 2rem;
+    right: 4rem;
     background: none;
     border: none;
 }
 .but_back img{
-    width: 3rem;
+    width: 2rem;
     background: none;
 }
 .but_next img{
-    width: 3rem;
+    width: 2rem;
     background: none;
+}
+
+@media screen and (max-width: 400px) {
+    .events_head{
+      font-size: 5rem;
+    }
+    .events_car_head{
+        font-size: 32px;
+    }
+    .events_car_desc{
+        font-size: 20px;
+    }
 }

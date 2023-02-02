@@ -23,10 +23,22 @@
 }
 
 #day, #hour, #minute, #second, .text{
-    font-weight: 500;
-    font-size: 64px;
-    color: #FFFFFF;
+  font-weight: 500;
+  font-size: 64px;
+  color: #FFFFFF;
 }
 .text{
     margin-left: 1.5rem;
+}
+
+@media screen and (max-width: 400px) {
+  #day, #hour, #minute, #second, .text{
+    font-size: 20px;
+  }
+  .text{
+    margin-left: 0.3rem;
+  }
+  .timer{
+    padding: 18px 0;
+  }
 }

@@ -8,7 +8,13 @@
 }
 .events_head{
     font-weight: 600;
-    font-size: 150px;
+    font-size: 140px;
     color: white;
     text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+    .events_head{
+      font-size: 5rem;
+    }
 }

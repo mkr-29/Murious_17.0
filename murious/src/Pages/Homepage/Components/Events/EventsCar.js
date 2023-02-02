@@ -13,14 +13,27 @@ import Back from "./Assets/arr_back.svg";
 import Next from "./Assets/arr_fwd.svg";
 
 const EventsCar = (parse) => {
+
+  const slHeight=100;
+  const slWidth=30;
+  // for devices width less tha 400px change naturalSlideHeight to 50
+  if (window.innerWidth < 400) {
+    document.documentElement.style.setProperty(
+      "--naturalSlideHeight",
+      80
+    );
+  }
+
+  // for devices width more than 400px change naturalSlideHeight to 100
+
   return (
     <CarouselProvider
-      naturalSlideWidth={100}
-      naturalSlideHeight={27}
+      naturalSlideWidth={slWidth}
+      naturalSlideHeight={slHeight}
       totalSlides={3}
     >
       <Slider>
-        <Slide className="evcar_slides" index={0}>
+        <Slide className="evcar_slides" id="ev-carsl" index={0}>
           <span className="events_car_head">{parse.ETitle1}</span>
           <span className="events_car_desc">{parse.EDesc1}</span>
           <Link to="/" className="event_regb">Register</Link>

@@ -24,6 +24,9 @@
   align-items: center;
   height: 100%;
 }
+.header-logojyc img{
+  width: 12rem;
+}
 .nav-items ul {
   position: relative;
   display: flex;
@@ -39,7 +42,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
-  font-size: 34px;
+  font-size: 30px;
   text-decoration: none;
     color: #fff;
 }
