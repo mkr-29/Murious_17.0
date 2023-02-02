@@ -5,6 +5,7 @@ import Header from './Components/Header/Header'
 import Landing from './Components/Landing/Landing'
 import Time from './Components/Landing/Time'
 import Schedule from './Components/Schedule/Schedule'
+import Footer from './Components/footer/Footer';
 
 export default function Homepage() {
   return (
@@ -15,6 +16,7 @@ export default function Homepage() {
         <About/>
         <Events/>
         <Schedule/>
+        <Footer/>
     </div>
   )
 }
