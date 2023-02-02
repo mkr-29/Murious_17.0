@@ -19,3 +19,11 @@
     margin-top: 8rem;
     z-index: 1;
 }
+@media screen and (max-width: 400px){
+    .sch_bghead{
+        font-size: 5rem;
+    }
+    .sch_head{
+        font-size: 5rem;
+    }
+}
