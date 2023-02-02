@@ -21,7 +21,7 @@ const EventsCar = (parse) => {
       totalSlides={3}
     >
       <Slider>
-        <Slide className="evcar_slides" index={0}>
+        <Slide className="evcar_slides" id="ev-carsl" index={0}>
           <span className="events_car_head">{parse.ETitle1}</span>
           <span className="events_car_desc">{parse.EDesc1}</span>
           <Link to="/" className="event_regb">Register</Link>
