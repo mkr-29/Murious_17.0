@@ -13,6 +13,7 @@ import Back from "./Assets/arr_back.svg";
 import Next from "./Assets/arr_fwd.svg";
 
 const EventsCar = (parse) => {
+
   return (
     <CarouselProvider
       naturalSlideWidth={100}
