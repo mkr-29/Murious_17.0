@@ -154,3 +154,20 @@
 		opacity: 0;
 	}
 }
+
+@media screen and (max-width: 400px) {
+    .murious_landing{
+        height: 41.5rem;
+        width: 100%;
+        background-position: center;
+        background-size: 50rem;
+        background-color: #000;
+    }
+    .murious_date{
+        font-size: 24px;
+    }
+    .event_button_landing{
+        font-size: 24px;
+        left: 25%;
+    }
+}

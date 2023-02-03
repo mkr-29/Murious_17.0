@@ -4,6 +4,7 @@
     background-color: #1f1f1f;
     height: 40rem;
     align-items: center;
+    position: relative;
 }
 .sch_bghead{
     font-weight: 600;
@@ -18,4 +19,13 @@
     color: white;
     margin-top: 8rem;
     z-index: 1;
+}
+
+@media screen and (max-width:400px) {
+    .sch_bghead{
+        font-size: 80px;
+    }
+    .sch_head{
+        font-size: 50px;
+    }
 }

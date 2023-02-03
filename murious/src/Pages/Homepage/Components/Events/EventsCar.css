@@ -5,6 +5,7 @@
 .evcar_slides{
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .events_car_head{
     font-weight: 400;
@@ -40,14 +41,14 @@
 }
 .but_back{
     position: absolute;
-    top: 174rem;   
+    top: 18rem;   
     left: 5rem;
     background: none;
     border: none;
 }
 .but_next{
     position: absolute;
-    top: 174rem;
+    top: 18rem;
     right: 5rem;
     background: none;
     border: none;
@@ -59,4 +60,31 @@
 .but_next img{
     width: 2rem;
     background: none;
+}
+
+@media screen and (max-width: 400px){
+    .events_car_head{
+        font-size: 30px;
+    }
+    .events_car_desc{
+        font-size: 18px;
+    }
+    .slideInner___2mfX9{
+        margin-left: 0;
+        width: 100%;
+    }
+    .but_back img{
+        width: 1rem;
+    }
+    .but_next img{
+        width: 1rem;
+    }
+    .but_back{
+        top: 26.2rem;
+        left: 2rem;
+    }
+    .but_next{
+        top: 26.2rem;
+        right: 2rem;
+    }
 }

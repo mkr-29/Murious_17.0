@@ -87,13 +87,13 @@
     justify-content: end;
     z-index: 1000;
   }
-
+  
   .header-logojyc img {
     width: 78px;
     height: 37px;
     z-index: 100;
   }
-
+  
   .header-wrapper .nav-items ul {
     flex-direction: column;
     position: fixed;
@@ -105,7 +105,7 @@
     justify-content: start;
     overflow: hidden;
   }
-
+  
   .header-wrapper.active .nav-items ul {
     flex-direction: column;
     padding-top: 8vh;
@@ -125,7 +125,7 @@
     margin-right: 25%;
     transition: all 400ms ease;
   }
-
+  
   .header-wrapper.active .header-nav-line {
     display: inline;
     width: 100%;
@@ -140,5 +140,12 @@
   .header-wrapper.active .menu {
     position: relative;
     transition: all 400ms ease;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header-logojyc img{
+    width: 6rem;
+    height: 1.8rem;
   }
 }

@@ -8,12 +8,13 @@
   padding-top: 17rem;
   padding-bottom: 7rem;
   gap: 7rem;
+  position: relative;
 }
 .about_heading {
     position: absolute;
     font-weight: 600;
     font-size: 480px;
-    top: 66.5rem;
+    top: 0;
     color: rgba(58, 55, 55, 0.47);
     z-index: 0;
 }
@@ -64,4 +65,23 @@
 }
 .about_murious{
     width: 12rem;
+}
+
+@media screen and (max-width: 400px) {
+    .about_heading{
+        font-size: 140px;
+        top: 1rem;
+    }
+    .jyc_heading{
+        font-size: 40px;
+    }
+    .jyc_about{
+        font-size: 18px;
+    }
+    .murious_about{
+        padding-top: 9rem;
+    }
+    .about_murious{
+        width: 9rem;
+    }
 }

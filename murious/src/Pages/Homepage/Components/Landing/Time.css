@@ -30,3 +30,15 @@
 .text{
     margin-left: 1.5rem;
 }
+
+@media screen and (max-width: 400px){
+    #day, #hour, #minute, #second,.text{
+        font-size: calc(16px + 2vmin);
+    }
+    .text{
+      margin-left: 0.3rem;
+    }
+    .timer{
+      padding: 18px 0;
+    }
+}
