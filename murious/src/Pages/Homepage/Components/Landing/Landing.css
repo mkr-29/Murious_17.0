@@ -2,7 +2,7 @@
     background: url(./Assets/MuriousBG.png);
     background-repeat: no-repeat;
     width: 100%;
-    height: 58rem;
+    height: 100vh;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -22,12 +22,13 @@
     margin-top: 3rem;
 }
 .event_button_landing{
-    text-decoration: none;
+	text-decoration: none;
     font-weight: 400;
     font-size: 36px;
     color: white;
     border: 3px solid #FFFFFF;
     padding: 0 1.8rem;
+	padding-bottom: 2px;
     position: absolute;
     z-index: 5;
     left: 42%;

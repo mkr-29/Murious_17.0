@@ -4,7 +4,7 @@ import "./Events.css";
 
 export default function Events() {
   return (
-    <div className="murious_events">
+    <div className="murious_events" id="events-m">
       <span className="events_head">Events</span>
       <div className="events_ev">
         <EventsCar

@@ -6,7 +6,7 @@ import Arrow from "./Assets/arrow.svg"
 
 export default function About() {
   return (
-    <div className='murious_about'>
+    <div className='murious_about' id='about-m'>
         <span className='about_heading'>About</span>
         <div className='juit_jyc'>
             <span className='jyc_heading'>JUIT Youth Club</span>

@@ -6,10 +6,11 @@ import Landing from './Components/Landing/Landing'
 import Time from './Components/Landing/Time'
 import Schedule from './Components/Schedule/Schedule'
 import Footer from './Components/Footer/Footer';
+import "./Homepage.css"
 
 export default function Homepage() {
   return (
-    <div>
+    <div className='m-homepage'>
         <Header/>
         <Landing/>
         <Time/>

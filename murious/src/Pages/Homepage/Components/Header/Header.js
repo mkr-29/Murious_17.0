@@ -44,10 +44,10 @@ function Header() {
 
             <li>
               <LNK
-               to="about-hp"
+               to="about-m"
                spy={true}
                smooth={true}
-               offset={-100}
+               offset={-78}
                duration={1000}
                >
                  ABOUT
@@ -55,11 +55,27 @@ function Header() {
             </li>
 
             <li>
-              <Link to="/events">EVENTS</Link>
+            <LNK
+               to="events-m"
+               spy={true}
+               smooth={true}
+               offset={-75}
+               duration={1000}
+               >
+                EVENTS
+            </LNK>
             </li>
 
             <li>
-              <Link to="/page-under-construction">Schedule</Link>
+            <LNK
+               to="schedule-m"
+               spy={true}
+               smooth={true}
+               offset={-75}
+               duration={1000}
+               >
+                Schedule
+            </LNK>
             </li>
 
           </ul>
