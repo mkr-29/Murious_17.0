@@ -1,6 +1,6 @@
 .timer {
   display: inline-block;
-  padding: 60px 0px;
+  padding: 45px 0px;
   text-align: center;
   background: linear-gradient(86.5deg, #129106 32.7%, #5ebf4e 95.44%);
   width: 100%;
@@ -24,7 +24,7 @@
 
 #day, #hour, #minute, #second, .text{
     font-weight: 500;
-    font-size: 64px;
+    font-size: 54px;
     color: #FFFFFF;
 }
 .text{

@@ -26,14 +26,17 @@
 }
 .jyc_heading {
   font-weight: 500;
-  font-size: 59px;
+  font-size: 54px;
   color: white;
 }
 .jyc_about {
     font-weight: 300;
-    font-size: 31.4272px;
+    font-size: 28px;
     color: white;
     text-align: justify;
+}
+.jyc_visit img{
+    display: none;
 }
 .jyc_visit {
     font-weight: 300;
@@ -43,10 +46,22 @@
     background: linear-gradient(98.14deg, #149308 10.57%, #5EBF4E 95.89%);
     width: 3.8rem;
     padding: 0 20px;
+    display: flex;
+    gap: 1rem;
+    transition: all 0.5s;
+}
+.jyc_visit:hover{
+    width: 6.5rem;
+}
+.jyc_visit:hover img{
+    display: block;
 }
 .murious_reg{
     width: 7.1rem;
 }
+.murious_reg:hover{
+    width: 10rem;
+}
 .about_murious{
-    width: 20%;
+    width: 12rem;
 }

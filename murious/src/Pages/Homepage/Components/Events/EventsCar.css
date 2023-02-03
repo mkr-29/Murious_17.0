@@ -8,14 +8,15 @@
 }
 .events_car_head{
     font-weight: 400;
-    font-size: 70px;
+    font-size: 58px;
     color: white;
 }
 .events_car_desc{
     font-weight: 300;
-    font-size: 35px;
+    font-size: 30px;
     color:white;
     text-align: justify;
+    width: 80%;
 }
 .slideInner___2mfX9 {
     display: flex;
@@ -33,25 +34,29 @@
     border: 3px solid #FFFFFF;
     padding: 0 25px;
 }
+.event_regb:hover{
+    background-color: #fff;
+    color: black;
+}
 .but_back{
     position: absolute;
     top: 174rem;   
-    left: 2rem;
+    left: 5rem;
     background: none;
     border: none;
 }
 .but_next{
     position: absolute;
     top: 174rem;
-    right: 2rem;
+    right: 5rem;
     background: none;
     border: none;
 }
 .but_back img{
-    width: 3rem;
+    width: 2rem;
     background: none;
 }
 .but_next img{
-    width: 3rem;
+    width: 2rem;
     background: none;
 }

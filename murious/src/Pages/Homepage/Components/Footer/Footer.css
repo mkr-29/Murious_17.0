@@ -5,6 +5,7 @@
     align-items: center;
     z-index: 6;
     position: relative;
+    padding-top: 2rem;
 }
 .footer-top{
     width: 100%;

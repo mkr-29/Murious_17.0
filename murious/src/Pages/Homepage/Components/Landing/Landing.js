@@ -5,7 +5,12 @@ import "./Landing.css";
 export default function Landing() {
   return (
     <div>
-      <div className="murious_landing">
+      <div className="murious_landing glitch">
+        <div class="glitch__layers">
+          <div class="glitch__layer"></div>
+          <div class="glitch__layer"></div>
+          <div class="glitch__layer"></div>
+        </div>
         <div className="murious_date">
           24<sup>th</sup> - 26<sup>th</sup> February
         </div>

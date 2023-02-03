@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
 }
+.header-logo{
+  width: 10rem;
+}
 .header {
-  /* position: fixed; */
+  position: fixed;
   background: transparent;
   z-index: 1000;
   width: 100%;
-  background-color: black;
 }
 .header-wrapper {
   width: 80vw;
@@ -35,13 +37,15 @@
 .nav-items ul {
   list-style: none;
 }
-.nav-items ul a {
-  font-family: "Poppins";
-  font-style: normal;
+.nav-items ul li a {
+  font-size: 24px;
+  font-family: 'Poppins';
   font-weight: 300;
-  font-size: 34px;
+  cursor: pointer;
+}
+.nav-items ul a {
+  color: rgb(189, 186, 186);
   text-decoration: none;
-    color: #fff;
 }
 .nav-items ul li a:hover::after {
   width: 100%;
@@ -55,7 +59,7 @@
   display: block;
   width: 0;
   height: 2px;
-  background: rgb(255, 255, 255);
+  background: rgb(255,255,255);
   transition: 0.3s;
 }
 .header-nav-lines,
@@ -137,10 +141,4 @@
     position: relative;
     transition: all 400ms ease;
   }
-}
-@media screen and (max-width: 400px){
-    .header-logojyc img{
-        width: 7rem;
-        /* height: 50%; */
-    }
 }

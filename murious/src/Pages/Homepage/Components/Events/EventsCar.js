@@ -27,7 +27,7 @@ const EventsCar = (parse) => {
   return (
     <CarouselProvider
       naturalSlideWidth={100}
-      naturalSlideHeight={30}
+      naturalSlideHeight={31}
       totalSlides={3}
     >
       <Slider>
