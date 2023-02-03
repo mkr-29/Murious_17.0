@@ -1,0 +1,79 @@
+.footer{
+    display: flex;
+    background-color: #000;
+    flex-direction: column;
+    align-items: center;
+    z-index: 6;
+    position: relative;
+}
+.footer-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.con-us{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 46px;
+}
+.logo-jyc{
+    margin-left: 5rem;
+}
+.logo-tmp{
+    z-index: 1;
+    margin-right: 5rem;
+}
+.fo-text{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+.fo-text p{
+    margin: 0;
+}
+.fo-socials{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.fo-coop{
+    color: white;
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 400px){
+    .logo-jyc{
+        width: 3.8rem;
+        margin-left: 1rem;
+    }
+    .logo-tmp{
+        width: 5rem;
+        margin-right: 1rem;
+    }
+    .con-us{
+        font-size: 24px;
+    }
+    .fo-text{
+        font-size: 14px;
+    }
+    .f-icos{
+        width: 1.5rem;
+    }
+    .fo-coop{
+        font-size: 14px;
+    }
+}

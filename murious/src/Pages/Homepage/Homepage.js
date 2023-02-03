@@ -5,7 +5,7 @@ import Header from './Components/Header/Header'
 import Landing from './Components/Landing/Landing'
 import Time from './Components/Landing/Time'
 import Schedule from './Components/Schedule/Schedule'
-import Footer from './Components/footer/Footer';
+import Footer from './Components/Footer/Footer';
 
 export default function Homepage() {
   return (
