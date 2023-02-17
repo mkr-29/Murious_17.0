@@ -31,9 +31,9 @@ function Header() {
     <div className={header ? "header active" : "header"}>
       <div className={`header-wrapper ${isOpen1 ? 'header-wrapper active':''} `}>
      
-          <NavLink to='/' className="header-logojyc">
-            <img onClick={'/'} className="header-logo" src={logojyc} alt="Murious 17.0" />
-          </NavLink>
+          <Link to='/' onClick={() => scroll.scrollToTop()} className="header-logojyc">
+            <img className="header-logo" src={logojyc} alt="Murious 17.0" />
+          </Link>
           
           <div onClick={onClickHeader} className="menu">
             <Hamburger toggled={isOpen} toggle={setOpen} />
@@ -47,7 +47,7 @@ function Header() {
                to="about-m"
                spy={true}
                smooth={true}
-               offset={-78}
+               offset={-79}
                duration={1000}
                >
                  ABOUT
@@ -59,7 +59,7 @@ function Header() {
                to="events-m"
                spy={true}
                smooth={true}
-               offset={-75}
+               offset={-74}
                duration={1000}
                >
                 EVENTS
@@ -71,7 +71,7 @@ function Header() {
                to="schedule-m"
                spy={true}
                smooth={true}
-               offset={-75}
+               offset={-74}
                duration={1000}
                >
                 Schedule

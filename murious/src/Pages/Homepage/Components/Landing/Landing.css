@@ -32,6 +32,8 @@
     position: absolute;
     z-index: 5;
     left: 42%;
+	font-family: 'Poppins';
+    font-style: normal;
 }
 .event_button_landing:hover{
     background-color: #fff;
@@ -169,6 +171,6 @@
     }
     .event_button_landing{
         font-size: 24px;
-        left: 25%;
+        left: 22%;
     }
 }

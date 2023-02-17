@@ -25,6 +25,7 @@
   position: absolute;
   align-items: center;
   height: 100%;
+  z-index: 9999;
 }
 .nav-items ul {
   position: relative;
@@ -36,6 +37,7 @@
 }
 .nav-items ul {
   list-style: none;
+  margin: 0;
 }
 .nav-items ul li a {
   font-size: 24px;
@@ -113,6 +115,8 @@
     width: 100vw;
     height: 100vh;
     transition: all 400ms ease;
+    padding-left: 0;
+    color: rgb(133, 133, 133);
   }
   .header-wrapper.active .header-nav-lines {
     display: inline;

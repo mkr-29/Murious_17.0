@@ -27,22 +27,22 @@ const Time = () => {
 
   return (
     <div className="timer" role="timer">
-      <div className="col-4">
+      <div className="tcol-4">
         <div className="box">
           <p id="day">{days < 10 ? "0" + days : days}<span className="text">days</span></p>
         </div>
       </div>
-      <div className="col-4">
+      <div className="tcol-4">
         <div className="box">
           <p id="hour">{hours < 10 ? "0" + hours : hours}<span className="text">hrs</span></p>
         </div>
       </div>
-      <div className="col-4">
+      <div className="tcol-4">
         <div className="box">
           <p id="minute">{minutes < 10 ? "0" + minutes : minutes}<span className="text">min</span></p>
         </div>
       </div>
-      <div className="col-4">
+      <div className="tcol-4">
         <div className="box">
           <p id="second">{seconds < 10 ? "0" + seconds : seconds}<span className="text">sec</span></p>
         </div>

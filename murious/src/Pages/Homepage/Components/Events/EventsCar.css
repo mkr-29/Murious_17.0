@@ -11,6 +11,8 @@
     font-weight: 400;
     font-size: 58px;
     color: white;
+    font-family: 'Poppins';
+    font-style: normal;
 }
 .events_car_desc{
     font-weight: 300;
@@ -18,6 +20,8 @@
     color:white;
     text-align: justify;
     width: 80%;
+    font-family: 'Poppins';
+    font-style: normal;
 }
 .slideInner___2mfX9 {
     display: flex;
@@ -35,6 +39,8 @@
     border: 3px solid #FFFFFF;
     padding: 0 25px;
     padding-bottom: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
 }
 .event_regb:hover{
     background-color: #fff;
@@ -42,14 +48,14 @@
 }
 .but_back{
     position: absolute;
-    top: 18rem;   
+    top: 10rem;   
     left: 5rem;
     background: none;
     border: none;
 }
 .but_next{
     position: absolute;
-    top: 18rem;
+    top: 10rem;
     right: 5rem;
     background: none;
     border: none;
@@ -65,14 +71,15 @@
 
 @media screen and (max-width: 400px){
     .events_car_head{
-        font-size: 30px;
+        font-size: 24px;
     }
     .events_car_desc{
-        font-size: 18px;
+        font-size: 14px;
     }
     .slideInner___2mfX9{
         margin-left: 0;
         width: 100%;
+        gap: 1rem;
     }
     .but_back img{
         width: 1rem;
@@ -81,11 +88,14 @@
         width: 1rem;
     }
     .but_back{
-        top: 26.2rem;
+        top: 14rem;
         left: 2rem;
     }
     .but_next{
-        top: 26.2rem;
+        top: 13.8rem;
         right: 2rem;
+    }
+    .event_regb{
+        font-size: 20px;
     }
 }

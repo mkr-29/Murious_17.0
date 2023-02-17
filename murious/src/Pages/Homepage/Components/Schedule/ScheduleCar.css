@@ -1,0 +1,77 @@
+.sc-details{
+    display: flex;
+    flex-direction: column;
+}
+.sc-details h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46.3px;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+}
+.sc-event{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 2rem;
+}
+.sc-event div{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    background: linear-gradient(86.36deg, #129106 0.81%, #5EBF4E 95.27%);
+    align-items: center;
+    width: 80rem;
+}
+.sc-event div span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    color: #ffffff;
+    margin-left: 3rem;
+    width: 45%;
+}
+.sc-event div p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46.3px;
+    color: white;
+    margin-right: 3rem;
+}
+@media screen and (max-width:400px) {
+    .sc-details{
+        align-items: center;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+        font-size: 1rem;
+    }
+    .nav-pills .nav-link{
+        font-size: 1rem;
+    }
+    .sc-details h4{
+        font-size: 1.7rem;
+        padding: 1rem 0;
+        padding-top: 2rem;
+    }
+    .sc-event{
+        width: 94vw;
+        gap: 1rem;
+    }
+    .sc-event div{
+        width: 100%;
+    }
+    .sc-event div span{
+        font-size: 0.8rem;
+        margin-left: 0.5rem;
+        width: 9rem;
+    }
+    .sc-event div p{
+        font-size: 1rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0;
+    }
+}

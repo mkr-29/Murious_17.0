@@ -14,19 +14,11 @@ import Next from "./Assets/arr_fwd.svg";
 
 const EventsCar = (parse) => {
 
-  var slHeight=100;
-  var slWidth=30;
-  // for devices width less tha 400px change naturalSlideHeight to 50
-  if (window.innerWidth < 400) {
-    slWidth=100;
-    slHeight=50;
-  }
-
   // for devices width more than 400px change naturalSlideHeight to 100
 
   return (
     <CarouselProvider
-      naturalSlideWidth={100}
+      naturalSlideWidth={80}
       naturalSlideHeight={100}
       totalSlides={3}
     >
