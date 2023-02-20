@@ -16,7 +16,7 @@
 }
 .events_car_desc{
     font-weight: 300;
-    font-size: 30px;
+    font-size: 22px;
     color:white;
     text-align: justify;
     width: 80%;
@@ -74,7 +74,7 @@
         font-size: 24px;
     }
     .events_car_desc{
-        font-size: 14px;
+        font-size: 12px;
     }
     .slideInner___2mfX9{
         margin-left: 0;
@@ -88,11 +88,11 @@
         width: 1rem;
     }
     .but_back{
-        top: 14rem;
+        top: 19rem;
         left: 2rem;
     }
     .but_next{
-        top: 13.8rem;
+        top: 19rem;
         right: 2rem;
     }
     .event_regb{
