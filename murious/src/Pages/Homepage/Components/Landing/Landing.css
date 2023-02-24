@@ -34,6 +34,7 @@
     left: 42%;
 	font-family: 'Poppins';
     font-style: normal;
+	cursor: pointer;
 }
 .event_button_landing:hover{
     background-color: #fff;
